@@ -26,17 +26,8 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 # Tide.list
 # Strong Stain Removal
 # 0~9
-# > 21经济
-^https?+:\/\/api\.21jingji\.com\/ad\/ url reject-200
-# > 360doc
-^https?+:\/\/mobi\.360doc\.com\/v\d{2}\/Ajax\/festival\.ashx\?op=getfestivaltheme url reject-200
-# > 55海淘
-^https?+:\/\/appv6\.55haitao\.com\/IflyAd\/getAd url reject-200
-# > 58同城
-^https?+:\/\/app\.58\.com\/api\/home\/a(?>dvertising|ppadv)\/ url reject-200
-^https?+:\/\/app\.58\.com\/api\/home\/invite\/popupAdv url reject-200
-^https?+:\/\/app\.58\.com\/api\/log\/ url reject-200
-^https?+:\/\/.+?\.58cdn\.com\.cn\/brandads\/ url reject-200
+
+
 
 # A
 # > 阿里
@@ -91,16 +82,7 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 # > 哔哩哔哩
 ^https?+:\/\/app\.bilibili\.com\/x\/v\d\/splash\/ url reject-200
 ^https?+:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash url reject-200
-# > 抱抱
-^https?+:\/\/www\.myhug\.cn\/ad\/ url reject-200
-# > 百词斩
-^https?+:\/\/7n\.bczcdn\.com\/launchad\/ url reject-200
-# > 贝太厨房
-^https?+:\/\/channel\.beitaichufang\.com\/channel\/api\/v\d\/promote\/ios\/start\/page url reject-200
-# > 币世界
-^https?+:\/\/iapi\.bishijie\.com\/actopen\/advertising\/ url reject-200
-# > 贝壳找房
-^https?+:\/\/app\.api\.ke\.com\/config\/config\/bootpage url reject-200
+
 # > 薄荷
 ^https?+:\/\/status\.boohee\.com\/api\/v\d\/app_square\/start_up_with_ad url reject-200
 
@@ -115,33 +97,14 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 ^https?+:\/\/v\.cctv\.com\/.+?850 url reject-200
 # > CSDN
 ^https?+:\/\/gw\.csdn\.net\/cms-app\/v2\/home_page\/open_advertisement url reject-200
-# > 车来了
-^https?+:\/\/api\.chelaile\.net\.cn\/adpub\/ url reject-200
-^https?+:\/\/api\.chelaile\.net\.cn\/goocity\/advert\/ url reject-200
-^https?+:\/\/pic\d\.chelaile\.net\.cn\/adv\/ url reject-200
-# > 曹操出行
-^https?+:\/\/cap\.caocaokeji\.cn\/advert-bss\/ url reject-200
-# > 财经
-^https?+:\/\/api\.caijingmobile\.com\/ad(?:vert)?+\/ url reject-200
-# > 超级课程表
-^https?+:\/\/.+?\/V\d\/splash\/getSplashV\d\.action url reject-200
-# > 超级星饭团
-^https?+:\/\/g\.cdn\.pengpengla\.com\/starfantuan\/boot-screen-info\/ url reject-200
-# > 超星学习通
-^https?+:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\? url reject-200
+
 
 # D
 # > 豆瓣
 ^https?+:\/\/api\.douban\.com\/v\d\/app_ads\/ url reject-200
 # > 斗鱼
 ^https?+:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo url reject-200
-# > 当当
-^https?+:\/\/mapi\.dangdang\.com\/index\.php\?action=init url reject-200
-^https?+:\/\/e\.dangdang\.com\/.+?getDeviceStartPage url reject-200
-# > 蛋蛋赞
-^https?+:\/\/www\.dandanzan\.com\/res\/gdsefse\.js url reject-200
-# > 叨鱼
-^https?+:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd url reject-200
+
 # > 丁香医生
 ^https?+:\/\/dxy\.com\/app\/i\/ask\/biz\/feed\/launch url reject-200
 # > 嘀嗒出行
@@ -165,13 +128,7 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 ^https?+:\/\/foodie-api\.yiruikecorp\.com\/v\d\/(?>banner|notice)\/overview url reject-200
 # > FOTOABLE
 ^https?+:\/\/cdn\.api\.fotoable\.com\/Advertise\/ url reject-200
-# > 飞客茶馆
-^https?+:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis url reject-200
-# > 飞常准
-^https?+:\/\/app\.variflight\.com\/ad\/ url reject-200
-^https?+:\/\/app\.variflight\.com\/v\d\/advert\/ url reject-200
-# > 凤凰秀
-^https?+:\/\/dsa-mfp\.fengshows\.cn\/mfp\/mfpMultipleDelivery\.do\?.+?adunitid url reject-200
+
 
 # G
 # > Google
@@ -182,8 +139,7 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 ^https?+:\/\/youtubei\.googleapis\.com\/youtubei\/.+?(?>ad|log)_ url reject-200
 # > Gofun
 ^https?+:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json url reject-200
-# > 国泰君安
-^https?+:\/\/dl\.app\.gtja\.com\/dzswem\/kvController\/.+?\.jpg$ url reject-200
+
 
 # H
 # > 杭州公交
@@ -195,18 +151,7 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 # > 虎牙
 ^https?+:\/\/business\.msstatic\.com\/advertiser\/ url reject-200
 ^https?+:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource url reject-200
-# > 华住会
-^https?+:\/\/appapi\.huazhu\.com:\d{4}\/client\/app\/getAppStartPage\/ url reject-200
-# > 韩剧社
-^https?+:\/\/47\.97\.20\.12\/ad\/ url reject-200
-# > 火猫
-^https?+:\/\/api\.huomao\.com\/channels\/loginAd url reject-200
-# > HiveBox
-^https?+:\/\/consumer\.fcbox\.com\/v\d\/ad\/ url reject-200
-# > 好好住
-^https?+:\/\/api\.haohaozhu\.cn\/index\.php\/home\/AppInit\/getStartPhoto url reject-200
-# > 花生地铁
-^https?+:\/\/cmsapi\.wifi8\.com\/v\d\/(?>emptyAd|adNew)\/ url reject-200
+
 
 # I
 # > 讯飞
@@ -220,13 +165,7 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 ^https?+:\/\/b?dsp-x\.jd\.com\/adx\/ url reject-200
 ^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo url reject-200
 ^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture url reject-200
-# > 界面新闻
-^https?+:\/\/img\.jiemian\.com\/ads\/ url reject-200
-# > 驾校一点通
-^https?+:\/\/api\.jxedt\.com\/ad\/ url reject-200
-^https?+:\/\/richmanapi\.jxedt\.com\/api\/ad\/ url reject-200
-# > 驾考宝典
-^https?+:\/\/.+?\.kakamobi\.cn\/api\/open\/v\d\/advert-sdk\/ url reject-200
+
 # > 金山 WPS
 ^https?+:\/\/ios\.wps\.cn\/ad-statistics-service url reject-200
 ^https?+:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/ url reject-200
@@ -239,25 +178,12 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 # > Keep
 ^https?+:\/\/api\.gotokeep\.com\/ads url reject-200
 ^https?+:\/\/static1\.keepcdn\.com\/.+?\d{3}x\d{4} url reject-200
-# > 快递100
-^https?+:\/\/p\.kuaidi100\.com\/mobile\/mobileapi\.do url reject-200
-# > 快看漫画
-^https?+:\/\/api\.kkmh\.com\/.+?ad(?:vertisement)?+\/ url reject-200
-# > 酷我 (122.14.246.33,175.102.178.52)
-^https?+:\/\/(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/MobileAdServer\/ url reject-200
-^https?+:\/\/(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/EcomResourceServer\/AdPlayPage\/adinfo url reject-200
-# > 看理想
-^https?+:\/\/api\.vistopia\.com\.cn\/api\/v\d\/home\/advertisement url reject-200
+
 
 # L
 # > 乐视
 ^https?+:\/\/.+?\/letv-gug\/ url reject-200
-# > 来疯直播
-^https?+:\/\/api\.laifeng\.com\/v\d\/start\/ads url reject-200
-# > 懒投资
-^https?+:\/\/ios\.lantouzi\.com\/api\/startpage url reject-200
-# > 旅法师营地
-^https?+:\/\/www\.iyingdi\.cn\/ad url reject-200
+
 
 # M
 # > 小米
@@ -265,8 +191,7 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 ^https?+:\/\/api\.jr\.mi\.com\/v\d\/adv\/ url reject-200
 ^https?+:\/\/api\.jr\.mi\.com\/jr\/api\/playScreen url reject-200
 ^https?+:\/\/api-mifit.+?\.huami\.com\/discovery\/mi\/discovery\/.+?_ad\? url reject-200
-# > 蘑菇租房
-^https?+:\/\/api\.mgzf\.com\/renter-operation\/home\/startHomePage url reject-200
+
 # > 墨迹天气
 ^https?+:\/\/cdn\.moji\.com\/ad(?>oss|link)\/ url reject-200
 # > 埋堆堆
@@ -292,8 +217,7 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 ^https?+:\/\/api\.meipian\.me.+?advert url reject-200
 
 # N
-# > 爱南宁
-^https?+:\/\/nnapp\.cloudbae\.cn\/mc\/api\/advert url reject-200
+
 # > NationalGeographic
 ^https?+:\/\/dili\.bdatu\.com\/jiekou\/ad\/ url reject-200
 # > NationalGeographicChina
@@ -309,23 +233,11 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 ^https?+:\/\/slapi\.oray\.net\/client\/ad url reject-200
 
 # P
-# > PU口袋校园
-^https?+:\/\/pocketuni\.net\/\?app=api&mod=Message&act=ad url reject-200
-# > 票根
-^https?+:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen url reject-200
+
 # > 拼多多
 ^https?+:\/\/api\.yangkeduo\.com\/api\/cappuccino\/splash url reject-200
 
-# Q
-# > Qdaily
-^https?+:\/\/app\d\.qdaily\.com\/app\d\/boot_advertisements\.json url reject-200
-^https?+:\/\/notch\.qdaily\.com\/api\/v\d\/boot_ad url reject-200
-# > 穷游
-^https?+:\/\/open\.qyer\.com\/qyer\/startpage\/ url reject-200
-^https?+:\/\/open\.qyer\.com\/qyer\/config\/get url reject-200
-^https?+:\/\/media\.qyer\.com\/ad\/ url reject-200
-# > 亲宝宝
-^https?+:\/\/api\.qbb6\.com\/ad\/ url reject-200
+
 
 # R
 # > 人人视频
@@ -354,10 +266,7 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 ^https?+:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passenger-token\/leachtoken\/webservice\/homepage\/queryADs url reject-200
 # > 顺丰速运
 ^https?+:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/queryAdImages url reject-200
-# > 四季線上影視4gTV
-^https?+:\/\/service\.4gtv\.tv\/4gtv\/Data\/(?>GetAD|ADLog) url reject-200
-# > 肆客足球
-^https?+:\/\/api\.qiuduoduo\.cn\/guideimage url reject-200
+
 # > 搜狗
 ^https?+:\/\/business-cdn\.shouji\.sogou\.com\/wapdl\/hole\/.+?\.jpg url reject-200
 # > 搜狐
@@ -370,8 +279,7 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 
 # T
 # > 腾讯
-# >> 富途牛牛
-^https?+:\/\/api\d\.futunn\.com\/ad\/ url reject-200
+
 # >> 全民K歌
 ^https?+:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad\/.+?\d{3,4}+x\d{4} url reject-200
 # >> 腾讯游戏
@@ -407,8 +315,7 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 ^https?+:\/\/mrobot\.pconline\.com\.cn\/s\/onlineinfo\/ad\/ url reject-200
 ^https?+:\/\/mrobot\.pcauto\.com\.cn\/v\d\/ad2p url reject-200
 ^https?+:\/\/mrobot\.pcauto\.com\.cn\/xsp\/s\/auto\/info\/preload\.xsp url reject-200
-# > 途牛
-^https?+:\/\/m\.tuniu\.com\/api\/operation\/splash\/ url reject-200
+
 
 # V
 # > VUE
@@ -437,20 +344,7 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 ^https?+:\/\/dsp-impr2\.youdao\.com\/adload url reject-200
 # > 微医
 ^https?+:\/\/app\.wy\.guahao\.com\/json\/white\/dayquestion\/getpopad url reject-200
-# > Weico
-^https?+:\/\/overseas\.weico\.cc\/portal\.php\?a=get_coopen_ads url reject-200
-# > 无他相机
-^https?+:\/\/api-release\.wuta-cam\.com\/ad_tree url reject-200
-^https?+:\/\/res-release\.wuta-cam\.com\/json\/ads_component_cache\.json url reject-200
-# > 蜗牛睡眠
-^https?+:\/\/snailsleep\.net\/snail\/v\d\/screen\/qn\/get\? url reject-200
-^https?+:\/\/snailsleep\.net\/snail\/v\d\/adTask\/ url reject-200
-# > WiFi共享大师
-^https?+:\/\/nochange\.ggsafe\.com\/ad\/ url reject-200
-# > 微店
-^https?+:\/\/thor\.weidian\.com\/ares\/home\.splash\/ url reject-200
-# > 华尔街见闻
-^https?+:\/\/api\.wallstreetcn\.com\/apiv\d\/advertising\/ url reject-200
+
 
 # X
 # > 新浪
@@ -463,16 +357,7 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 ^https?+:\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=tqt url reject-200
 ^https?+:\/\/tqt\.weibo\.cn\/.+?advert\.index url reject-200
 ^https?+:\/\/tqt\.weibo\.cn\/api\/advert\/ url reject-200
-# > 下厨房
-^https?+:\/\/api\.xiachufang\.com\/v\d\/ad\/ url reject-200
-# > 虾米
-^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit\/ url reject-200
-# > 小睡眠
-^https?+:\/\/api\.psy-1\.com\/cosleep\/startup url reject-200
-# > 小猿搜题
-^https?+:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d url reject-200
-# > 新片场
-^https?+:\/\/app\.xinpianchang\.com\/open_screen\? url reject-200
+
 # > 雪球
 ^https?+:\/\/api\.xueqiu\.com\/ads\/display url reject-200
 ^https?+:\/\/(?>promo|api)\.xueqiu\.com\/promotion\/(?:feed_)?+display url reject-200
